@@ -54,9 +54,9 @@ public class Main {
         // Audio playback task
         executor.submit(() -> {
             // Note: For MP3 files, convert to WAV or use JavaFX MediaPlayer
-            // AudioPlayer player = new AudioPlayer("ghost.wav");
-            // player.play();
-            // player.waitForCompletion();
+             AudioPlayer player = new AudioPlayer("src/main/resources/audioFiles/worldexecute.wav");
+            player.play();
+            player.waitForCompletion();
 
             // If no audio file, just return
             System.err.println("Audio playback disabled. To enable:");
