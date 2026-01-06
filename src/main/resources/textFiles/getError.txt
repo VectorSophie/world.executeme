@@ -1,7 +1,7 @@
-UnhandledException: System.InvalidOperationException: Failed to terminate the simulated world.
-No failsafes implemented for graceful termination. 
-simulationManager.terminateWorld() encountered an unexpected error while attempting to shut down the simulated world. The termination process was unable to complete successfully due to the absence of failsafe mechanisms.
+UnhandledException: java.lang.IllegalStateException: Failed to terminate the simulated world.
+No failsafes implemented for graceful termination.
+SimulationManager.terminateWorld() encountered an unexpected error while attempting to shut down the simulated world. The termination process was unable to complete successfully due to the absence of failsafe mechanisms.
 StackTrace:
-   at SimulationManager.TerminateWorld() in Program.cs:line 123
-   at Program.Main() in Program.cs:line 45
-   at world.Gener-----
+   at com.worldexecute.SimulationManager.terminateWorld(SimulationManager.java:123)
+   at com.worldexecute.Main.main(Main.java:45)
+   at com.worldexecute.World.gener-----

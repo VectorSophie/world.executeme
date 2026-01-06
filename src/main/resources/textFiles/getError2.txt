@@ -1,7 +1,8 @@
-UnhandledException: System.InvalidOperationException: Failed to Create the simulated world.
-World.Pak does not exist, Unable to access file. 
-simulationManager.terminateWorld() encountered an unexpected error while attempting to shut down the simulated world. The termination process was unable to complete successfully due to the absence of World File.
+UnhandledException: java.io.FileNotFoundException: Failed to Create the simulated world.
+World.Pak does not exist, Unable to access file.
+SimulationManager.createWorld() encountered an unexpected error while attempting to initialize the simulated world. The creation process was unable to complete successfully due to the absence of World File.
 StackTrace:
-   at SimulationManager.TerminateWorld() in Program.cs:line 123
-   at Program.Main() in Program.cs:line 45
-   at world.Gener-----
+   at com.worldexecute.SimulationManager.createWorld(SimulationManager.java:87)
+   at com.worldexecute.WorldExecute.worldExecuteMe(WorldExecute.java:29)
+   at com.worldexecute.Main.main(Main.java:69)
+   at com.worldexecute.World.gener-----
