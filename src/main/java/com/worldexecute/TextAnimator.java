@@ -13,13 +13,6 @@ import java.util.Random;
  * - Character shuffling animation
  * - Encrypt wall effect (rapid text cycling)
  * - Animated text with customizable loops and colors
- *
- * Usage Example:
- * <pre>
- * TextAnimator.animateText("world.execute()", "[Console]", "yellow", 5, false);
- * List&lt;String&gt; lines = Arrays.asList("Line 1", "Line 2", "Line 3");
- * TextAnimator.encryptWall(3, lines);
- * </pre>
  */
 public class TextAnimator {
 

@@ -6,19 +6,11 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Main - Entry point for the World.Execute(Me) console application.
+ * Main - Do I need to explain?
  * This class handles user authentication and coordinates the audio playback
  * with the visual animation sequence.
- *
- * Usage:
- * <pre>
- * java Main
- * </pre>
- *
- * The program will:
- * 1. Display the user file
- * 2. Prompt for password ("run world.exec")
- * 3. Play audio and display synchronized animations
+ * Features:
+ * - is the main.java
  */
 public class Main {
 

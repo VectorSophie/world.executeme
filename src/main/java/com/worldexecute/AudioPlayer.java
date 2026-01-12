@@ -6,26 +6,11 @@ import java.io.IOException;
 
 /**
  * AudioPlayer - Standalone utility for playing audio files.
- * Supports WAV, AIFF, and AU formats through javax.sound.sampled.
- * For MP3 support, consider using JavaFX MediaPlayer or external libraries like JLayer.
- *
+ * Will use .wav as of know
  * Features:
  * - Play audio files in a separate thread
  * - Non-blocking playback
  * - Simple start/stop controls
- *
- * Usage Example:
- * <pre>
- * AudioPlayer player = new AudioPlayer("audio/song.wav");
- * player.play();
- * // ... do other work ...
- * player.stop();
- * </pre>
- *
- * Note: For MP3 files, you'll need to either:
- * 1. Convert to WAV format, or
- * 2. Use JavaFX MediaPlayer, or
- * 3. Add external library like JLayer (javazoom)
  */
 public class AudioPlayer {
 
@@ -122,23 +107,4 @@ public class AudioPlayer {
             }
         }
     }
-
-    /**
-     * Alternative implementation using JavaFX MediaPlayer (for MP3 support).
-     * Uncomment and use this if you have JavaFX available.
-     *
-     * Example:
-     * <pre>
-     * // Add to dependencies: org.openjfx:javafx-media
-     * import javafx.scene.media.Media;
-     * import javafx.scene.media.MediaPlayer;
-     *
-     * public void playMP3() {
-     *     String uri = new File(audioFilePath).toURI().toString();
-     *     Media media = new Media(uri);
-     *     MediaPlayer mediaPlayer = new MediaPlayer(media);
-     *     mediaPlayer.play();
-     * }
-     * </pre>
-     */
 }

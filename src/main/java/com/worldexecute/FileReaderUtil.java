@@ -14,12 +14,6 @@ import java.io.InputStreamReader;
  * - Read and display text files with optional delays between lines
  * - Color-coded character display based on character rules
  * - Error handling for file operations
- *
- * Usage Example:
- * <pre>
- * FileReaderUtil.readFile("textFiles/user");
- * FileReaderUtil.readFileColor("textFiles/logoRhine");
- * </pre>
  */
 public class FileReaderUtil {
 

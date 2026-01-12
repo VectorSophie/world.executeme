@@ -12,13 +12,6 @@ import java.util.List;
  * - Complete lyric animation sequence
  * - Synchronized text effects and file displays
  * - Modular design using utility classes
- *
- * Usage:
- * <pre>
- * WorldExecute.worldExecuteMe();
- * </pre>
- *
- * Note: Requires text files in the textFiles/ directory (see documentation)
  */
 public class WorldExecute {
 

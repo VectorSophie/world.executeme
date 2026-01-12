@@ -76,6 +76,13 @@ If Eclipse shows Java version errors:
 2. Right-click in editor → **Run As → Java Application**
 3. Enter password in Console view: `run world.exec`
 
+### Running via cmd
+
+1. Locate to folder root
+2. ```mvn clean package```
+3. ```java -cp target/classes com.worldexecute.Main```
+4. Enter password in Console view: `run world.exec`
+
 ## Eclipse Console Configuration
 
 ### Enable ANSI Color Support

@@ -9,13 +9,6 @@ package com.worldexecute;
  * - Slow typing effect with configurable delays
  * - Color-based printing
  * - Console clearing
- *
- * Usage Example:
- * <pre>
- * ConsoleUtils.slowType("Hello World", 50, true, 0, "green");
- * ConsoleUtils.printColored("Error occurred", "red");
- * ConsoleUtils.clearConsole();
- * </pre>
  */
 public class ConsoleUtils {
 
